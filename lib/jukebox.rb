@@ -30,6 +30,7 @@ def exit_jukebox
 end
 
 def run(songs)
+  loop do
   puts "Please enter a command:"
   user_command = gets.strip
   case user_command
@@ -45,4 +46,3 @@ def run(songs)
   end
 
 
-end
