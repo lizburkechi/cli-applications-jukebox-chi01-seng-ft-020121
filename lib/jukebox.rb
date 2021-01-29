@@ -18,7 +18,7 @@ def play(songs)
   song_choice = gets.strip
   if songs.index(song_choice) != nil
     puts "Playing #{song_choice}"
-  elsif (1..9).to_a.index (song_choice.to_i) != nil
+  elsif (1..9).to_a.index (song_choice.to_i + 1) != nil
     puts "Playing #{song_choice}"
   else
     puts "Invalid input, please try again"
