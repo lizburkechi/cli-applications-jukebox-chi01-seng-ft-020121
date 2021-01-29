@@ -33,5 +33,5 @@ def run(command)
   puts "Please enter a command:"
   gets.strip
 
-puts "hi"  
+puts "hi"
 end
