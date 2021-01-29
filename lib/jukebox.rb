@@ -32,7 +32,7 @@ end
 def run(songs)
   loop do
   puts "Please enter a command:"
-  user_command = gets.downcase.strip
+  user_command = gets.strip
   case user_command
   when "help"
     help
