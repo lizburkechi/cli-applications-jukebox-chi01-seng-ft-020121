@@ -17,7 +17,7 @@ def play(songs)
   puts "Please enter a song name or number:"
   song_choice = gets.strip
 binding.pry
-puts "hi"    
+puts "hi"
 end
 
 def exit_jukebox
