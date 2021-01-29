@@ -21,7 +21,6 @@ def play(songs)
   else
     puts "Invalid input, please try again"
 binding.pry
-puts "hi"
 end
 
 def exit_jukebox
